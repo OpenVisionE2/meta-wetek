@@ -53,7 +53,7 @@ do_compile_append () {
 }
 
 # Put debugging files into dbg package
-FILES_kernel-dbg += "/usr/src/kernel/drivers/amlogic/input/touchscreen/gslx680/.debug"
+FILES_${KERNEL_PACKAGE_NAME}-dbg += "/usr/src/kernel/drivers/amlogic/input/touchscreen/gslx680/.debug"
 
 do_install_append () {
     ln -s ${STAGING_KERNEL_DIR}/arch/arm/mach-meson6 ${STAGING_KERNEL_DIR}/include/mach

@@ -4,7 +4,6 @@ IMAGE_CLASSES += "image_types_wetek"
 
 GST_VERSION = "0.10"
 
-DVBSKYPROVIDER = "kernel"
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	wetek-shutdown \

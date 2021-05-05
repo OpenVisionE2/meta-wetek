@@ -46,3 +46,7 @@ PREFERRED_VERSION_linux-wetek2 = "${KERNELVERSION}"
 KERNEL_IMAGETYPE = "Image"
 
 EXTRA_ALSA = "amls905"
+
+PREFERRED_PROVIDER_virtual/libgles1 ?= "wetek-opengl-amlogic"
+PREFERRED_PROVIDER_virtual/libgles2 ?= "wetek-opengl-amlogic"
+PREFERRED_PROVIDER_virtual/egl ?= "wetek-opengl-amlogic"

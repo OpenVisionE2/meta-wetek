@@ -4,7 +4,6 @@ IMAGE_CLASSES += "image_types_wetek"
 
 GST_VERSION = "0.10"
 
-
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\
 	wetek-shutdown \
 	wetek-libamplayer-${MACHINE} \
@@ -41,7 +40,7 @@ IMAGE_CMD_prepend = "\
 	rm -Rf ${IMAGE_ROOTFS}/tmp/*; \
 	"
 
-MACHINE_FEATURES += "bluetooth fb usbhost vfat alsa dvb-c nolcd nogamma HDMI vfdsymbol"
+MACHINE_FEATURES += "bluetooth fb usbhost vfat alsa dvb-c nolcd nogamma HDMI vfdsymbol kodi17"
 
 MTD_BLACK  = "mmcblk0"
 

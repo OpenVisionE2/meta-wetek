@@ -9,7 +9,7 @@ DEPENDS_append = " wetek-libamadec-${MACHINE} wetek-libamcodec-${MACHINE} wetek-
 
 EXTRA_OECONF += " \
     --with-platform=aml-aarch64 \
-    --with-ffmpeg=stb\
+    --with-ffmpeg=stb \
 "
 
 COMPATIBLE_MACHINE = "^(wetekplay)$"
